@@ -1,0 +1,66 @@
+[
+  {
+      "id": 1,
+      "title": "Rolex-Watch",
+      "description": "Latest model Rolex watch with diamond-studded bezel.",
+      "currentBidPrice": 15000.00,
+      "timeLeft": "1d 5h 30m",
+      "bidsCount": 15,
+      "image": "https://i.ibb.co.com/gL0Nqh7H/Bid4-min.png"
+  },
+  {
+      "id": 2,
+      "title": "Apple MacBook",
+      "description": "Latest model MacBook Pro with M1 chip and Retina display.",
+      "currentBidPrice": 2500.00,
+      "timeLeft": "2h 15m",
+      "bidsCount": 8,
+      "image": "https://i.ibb.co.com/chV233tk/Bid3-min.png"
+  },
+  {
+      "id": 3,
+      "title": "Guitar-Acoustic",
+      "description": "High-quality acoustic guitar with solid wood body.",
+      "currentBidPrice": 1200.00,
+      "timeLeft": "12h 45m",
+      "bidsCount": 23,
+      "image": "https://i.ibb.co.com/F46gtK7M/Bid2-min.png"
+  },
+  {
+      "id": 4,
+      "title": "DSLR Camera",
+      "description": "Professional DSLR camera with 24MP sensor and 4K video.",
+      "currentBidPrice": 780.00,
+      "timeLeft": "3d 2h 10m",
+      "bidsCount": 31,
+      "image": "https://i.ibb.co.com/7xdm7kyG/Bid1-min.png"
+  },
+  {
+      "id": 5,
+      "title": "Wood Chair",
+      "description": "Handcrafted vintage oak chair with intricate carvings.",
+      "currentBidPrice": 310.75,
+      "timeLeft": "6h 55m",
+      "bidsCount": 19,
+      "image": "https://i.ibb.co.com/4ygTs7h/Bid5-min.png"
+  },
+  {
+      "id": 6,
+      "title": "Ghostwriter-Book",
+      "description": "A thrilling mystery novel by bestselling author.",
+      "currentBidPrice": 80.00,
+      "timeLeft": "1d 19h 40m",
+      "bidsCount": 40,
+      "image": "https://i.ibb.co.com/vCSNxPPd/Bid6-min.png"
+  },
+  {
+      "id": 7,
+      "title": "Flowers-Bouquet",
+      "description": "A beautiful bouquet of fresh flowers.",
+      "currentBidPrice": 50.00,
+      "timeLeft": "1d 19h 40m",
+      "bidsCount": 40,
+      "image": "https://i.ibb.co.com/Swk8YYR0/Bid7-min.png"
+  }
+
+]
