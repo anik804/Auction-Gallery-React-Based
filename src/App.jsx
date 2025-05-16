@@ -87,17 +87,17 @@ return (
     <Banner></Banner>
     {/* --------------------------------------------------------------------------------------------------------------------------------------- */}
     {/*-------------------------------------------------------Main section heading part---------------------------------------------------------*/}
-    <div className='mt-30 w-5/6 mx-30'>
+    <div className='mt-10 w-full px-4 sm:w-5/6 sm:mx-auto'>
         <h1 className='font-extrabold text-3xl text-gray-600'>Active Auctions</h1>
         <p className='text-sky-400 mt-2 font-bold'>Discover and bid on extraordinary items</p>
     </div>
     {/* --------------------------------------------------------------------------------------------------------------------------------------- */}
     {/*-------------------------------------------------------Main section Table part------------------------------------------------------------------- */}
-    <div className='main-container container mx-auto mt-10 flex gap-5'>
-        <div className='left-container w-[70%] shadow-2xl rounded-lg px-5 border-amber-200'>
+    <div className='main-container container mx-auto mt-10 flex flex-col lg:flex-row gap-5 px-4 sm:px-0'>
+        <div className='left-container w-full lg:w-7/12 shadow-2xl rounded-lg px-5 border-amber-200'>
             <div className="">
               <table className="min-w-full table-auto">
-                <thead>
+                <thead className="hidden sm:table-header-group">
                   <tr className="text-center border-b-2 grid grid-cols-4 font-bold text-xl items-center">
                     <th className="py-4">Item</th>
                     <th className="py-4">Current Bid</th>
@@ -116,7 +116,7 @@ return (
 
 
       {/* right-container */}
-      <div className="right-container w-[35%] h-auto bg-white rounded-4xl shadow-2xl">
+      <div className="right-container w-full lg:w-5/12 h-auto bg-white rounded-4xl shadow-2xl">
         <div className='flex items-center justify-center h-20 gap-3 border-rounded-2xl bg-slate-100'>
           <FaRegHeart size={30} className='' />
           <h1 className='font-bold text-2xl'>Favourite Items</h1>

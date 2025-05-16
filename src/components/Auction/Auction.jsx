@@ -6,7 +6,7 @@ const Auction = ({handleItem}) => {
     const [auction,setAuctions] = useState([])
 
     useEffect(() =>{
-        fetch("auction.json")
+        fetch("/Auction-Gallery-React-Based/auction.json")
         .then(res => res.json())
         .then(data => setAuctions(data))
     },[])
